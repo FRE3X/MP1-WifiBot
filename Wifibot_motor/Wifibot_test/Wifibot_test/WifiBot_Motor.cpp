@@ -6,16 +6,25 @@ WifiBot_Motor::WifiBot_Motor(void)
 	
 }
 
-WifiBot_Motor::WifiBot_Motor(unsigned char speed1,unsigned char speed2,unsigned char SpeedFlag)
+WifiBot_Motor::WifiBot_Motor(char port[6],unsigned char speed1,unsigned char speed2,unsigned char SpeedFlag)
 {
+	//creation de la trame
 	trame[0] = 255;
 	trame[1] = 0x07; 
 	trame[2] = speed1; 
 	trame[3] = (speed1 >> 8) ;
 	trame[4] = speed2 ; 
-	trame[5] = (speed2 >> 8); 
+	trame[5] = (speed2 >> 8);
 	trame[6] = SpeedFlag+1; 
+	short mycrc = Crc16(trame+1,6); 
+	trame[7] = mycrc; 
+	trame[8] = (mycrc >> 8 ); 
 
+	//ouverture port
+	fd = open(port,O_RDWR); 
+	write(fd,trame,10); 
+	Sleep(250); 
+	close(fd); 
 }
 
 WifiBot_Motor::~WifiBot_Motor(void)

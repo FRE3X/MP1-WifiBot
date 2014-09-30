@@ -1,0 +1,24 @@
+﻿La génération a démarré 30/09/2014 15:21:18.
+     1>Projet "C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Wifibot_test\Wifibot_test.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WifiBot_Motor.cpp
+         WifiBot_Motor.cpp
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(15): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(17): warning C4333: '>>' : décalage vers la droite trop important, perte de données
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(20): warning C4244: '=' : conversion de 'short' en 'unsigned char', perte possible de données
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(24): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(315) : voir la déclaration de 'open'
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(25): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(321) : voir la déclaration de 'write'
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(27): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(305) : voir la déclaration de 'close'
+     1>c:\users\utilisateur\desktop\wifibot_mini_projet-master\wifibot_mini_projet-master\wifibot_motor\wifibot_test\wifibot_test\wifibot_motor.cpp(51): warning C4805: '==' : mélange risqué de type 'unsigned int' et de type 'bool' dans l'opération
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Debug\Wifibot_test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Debug\Wifibot_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Debug\Wifibot_test.lib" /MACHINE:X86 Debug\test_WifiBot.obj
+         Debug\WifiBot_Motor.obj
+         Wifibot_test.vcxproj -> C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Debug\Wifibot_test.exe
+     1>Génération du projet "C:\Users\Utilisateur\Desktop\WifiBot_Mini_Projet-master\WifiBot_Mini_Projet-master\Wifibot_motor\Wifibot_test\Wifibot_test\Wifibot_test.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.86

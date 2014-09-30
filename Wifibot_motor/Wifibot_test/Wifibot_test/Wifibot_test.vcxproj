@@ -82,6 +82,9 @@
   <ItemGroup>
     <ClInclude Include="WifiBot_Motor.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="msvcp110.dll" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
